@@ -11,7 +11,7 @@ Follow the steps below to solve the problem:
 4.  Otherwise, print “Valid“.
 
 
-**IMPLEMENTATION **
+**IMPLEMENTATION**
 
 1. To determine if all of the entries in the list (sudoku row or sudoku column) are unique,  we use the built-in set() function.
 2. The set() function, in essence, eliminates any duplicate   entries from the list. There are no duplicate elements if the set is 9 elements long.
