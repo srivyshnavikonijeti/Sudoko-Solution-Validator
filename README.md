@@ -2,32 +2,24 @@
 
 Sudoku is one of the most popular puzzle games of all time. The goal of Sudoku is to fill a 9*9 grid with numbers so that each row, column and 3*3 section contain all of the digits between 1 and 9, As a logic puzzle. 
 
-EXAMPLES :
+**METHODOLOGY**
+Follow the steps below to solve the problem:
+1.  Traverse the given matrix sudoku[][].
+2.  Check if the 3 conditions are satisfied or  not.
+3.  If any of the conditions are not satisfied, then print “Not valid“.
+4.  Otherwise, print “Valid“.
+**
+IMPLEMENTATION **
+1. To determine if all of the entries in the list (sudoku row or sudoku column) are unique,  we use the built-in set() function.
+2. The set() function, in essence, eliminates any duplicate   entries from the list. There are no duplicate elements if the set is 9 elements long.
+3. To obtain the column elements, we'll use the list comprehension approach.
+   [item[col num] for sudoku item]
+4. To retrieve the items for each cell, a slicing process from the Python list is employed.
 
-1.   	INPUT :
-sudoku =    [ [ 7, 9, 2, 1, 5, 4, 3, 8, 6 ],
-                     [ 6, 4, 3, 8, 2, 7, 1, 5, 9 ],
-                     [ 8, 5, 1, 3, 9, 6, 7, 2, 4 ],
-                     [ 2, 6, 5, 9, 7, 3, 8, 4, 1 ],
-                     [ 4, 8, 9, 5, 6, 1, 2, 7, 3 ],
-                     [ 3, 1, 7, 4, 8, 2, 9, 6, 5 ],
-                     [ 1, 3, 6, 7, 4, 8, 5, 9, 2 ],
-                     [ 9, 7, 4, 2, 1, 5, 6, 3, 8 ],
-                     [ 5, 2, 8, 6, 3, 9, 4, 1, 7 ] ]
-EXPECTED OUTPUT :
-Sudoku is valid.
 
-2.    INPUT :
- sudoku =       [[5,3,4,6,7,8,9,1,2],
-           	[6,7,2,1,9,5,3,4,8],
-           	[1,9,8,3,4,2,5,6,7],
-           	[8,5,9,7,6,1,4,2,3],
-           	[4,2,6,8,5,3,7,9,1],
-           	[7,1,3,9,2,4,8,5,6],
-           	[9,6,1,5,3,7,2,8,4],
-           	[2,8,7,4,1,9,6,3,5],
-           	[3,4,5,2,8,6,1,7,8]]
-                        
-EXPECTED OUTPUT :
-Sudoku is not valid.
+This project is done by :
 
+[Konijeti Sri Vyshnavi](https://github.com/srivyshnavikonijeti)<br/>
+[Methuku Samhitha](https://github.com/METHUKUSAMHITHA)<br/>
+[Lokavarapu Varsha](https://github.com/varsha743)<br/>
+[Mucharla Deeksha]()
