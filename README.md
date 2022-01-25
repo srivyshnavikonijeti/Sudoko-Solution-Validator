@@ -25,4 +25,4 @@ This project is done by :
 [Konijeti Sri Vyshnavi](https://github.com/srivyshnavikonijeti)<br/>
 [Methuku Samhitha](https://github.com/METHUKUSAMHITHA)<br/>
 [Lokavarapu Varsha](https://github.com/varsha743)<br/>
-[Mucharla Deeksha]()
+[Mucharla Deeksha](https://github.com/DeekshaMucharla)
